@@ -2,7 +2,13 @@
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
  */
+html {
+    height: 100%;
+}
+
+
 body {
+    min-height: 100%;
     color: #526066;
 }
 
@@ -61,7 +67,7 @@ p {
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
 
-    height: 63vh;
+    height: 32vh;
     width: 100%;
 /*    margin-bottom: 3em;
 */  display: table;
@@ -210,6 +216,71 @@ p {
     letter-spacing: .1em;
 }
 
+
+/*
+ * -- BUTTON --
+ * Styles for the "Choose" button at the bottom of a pricing table.
+ * This inherits from Pure Button.
+ */
+
+
+#mc_embed_signup {
+    text-align: center;
+}
+
+div.mc-field-group.input-group li {
+    list-style: none;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn-7h span {
+    display: inline-block;
+    width: 100%;
+}
+
+.btn-7h:before {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    font-size: 160%;
+    line-height: 0.8;
+    color: #0a833d;
+}
+
+/*
+ * -- FOOTER --
+ * Styles for the "Choose" button at the bottom of a pricing table.
+ * This inherits from Pure Button.
+ */
+
+
 .footer {
     background: #111;
     color: #888;
@@ -243,7 +314,7 @@ p {
  */
 @media (min-width: 480px) {
     .banner {
-        height: 63vh;
+        height: 39vh;
     }
     .banner-head {
         font-size: 3em;
