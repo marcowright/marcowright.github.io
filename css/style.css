@@ -4,11 +4,13 @@
  */
 html {
     height: 100%;
+    max-width: 100%;
 }
 
 
 body {
     min-height: 100%;
+    max-width: 100%;
     color: #526066;
 }
 
