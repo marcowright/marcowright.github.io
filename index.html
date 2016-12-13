@@ -15,17 +15,20 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.0/build/grids-responsive-min.css">
     <!--<![endif]-->
 
-        <!--[if lte IE 8]>
+    <!--[if lte IE 8]>
             <link rel="stylesheet" href="css/layouts/pricing-old-ie.css">
         <![endif]-->
-        <!--[if gt IE 8]><!-->
-            <link rel="stylesheet" href="css/style.css">
-        <!--<![endif]-->
-         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/style.css">
+    <!--<![endif]-->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:500px;}
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
 
-    input.button {
+ <!--  input.button {
     border: none;
     font-family: inherit;
     font-size: inherit;
@@ -62,10 +65,8 @@
     transition: all 0.3s;
     }
 
-
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>   
+     Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. -->
 
 
 
@@ -115,12 +116,18 @@
 
 <div class="l-box">
     
-    <!-- Begin MailChimp Signup Form -->
+<!-- Begin MailChimp Signup Form -->
+
 <div id="mc_embed_signup">
 <form action="//werkhorsenow.us14.list-manage.com/subscribe/post?u=28a7260e05ae84e642c68b897&amp;id=fe72d066cf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-    <h4>Enter your email below for early access.</h4>
+    
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
 <div class="mc-field-group">
     <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
 </label>
@@ -132,16 +139,16 @@
     <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
 </div>
 <div class="mc-field-group">
-    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+    <label for="mce-MMERGE3">Which are you? Choose one.  <span class="asterisk">*</span>
 </label>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+    <select name="MMERGE3" class="required" id="mce-MMERGE3">
+    <option value=""></option>
+    <option value="Jockey (Owner/Managers)">Jockey (Owner/Managers)</option>
+<option value="Werkhorse (Skilled workers)">Werkhorse (Skilled workers)</option>
+
+    </select>
 </div>
-<div class="mc-field-group input-group">
-    <strong>Which are you? Choose one only. </strong>
-    <ul><li><input type="checkbox" value="1" name="group[2435][1]" id="mce-group[2435]-2435-0"><label for="mce-group[2435]-2435-0">Jockey (Owners/Managers)</label></li>
-<li><input type="checkbox" value="2" name="group[2435][2]" id="mce-group[2435]-2435-1"><label for="mce-group[2435]-2435-1">Werkhorse (Skilled workers)</label></li>
-</ul>
-</div>
+<p>Powered by <a href="http://eepurl.com/ctaWLn" title="MailChimp - email marketing made easy and fun">MailChimp</a></p>
     <div id="mce-responses" class="clear">
         <div class="response" id="mce-error-response" style="display:none"></div>
         <div class="response" id="mce-success-response" style="display:none"></div>
@@ -151,8 +158,9 @@
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
 <!--         <form class="pure-form">
         <fieldset>
             <legend>Who are you?</legend>
