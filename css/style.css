@@ -306,6 +306,10 @@ div.mc-field-group.input-group li {
         margin-bottom: 0;
     }
 
+    .mc_embed_signup {
+        max-width: 60%;
+    }
+
 }
 
 /*
@@ -319,4 +323,9 @@ div.mc-field-group.input-group li {
     .banner-head {
         font-size: 3em;
     }
+
+    .mc_embed_signup {
+        max-width: 80%;
+    }
+
 }
