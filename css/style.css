@@ -329,3 +329,12 @@ div.mc-field-group.input-group li {
     }
 
 }
+
+ /* -- IPHONE 6 MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (min-width: 320px) {
+    .mc_embed_signup {
+        max-width: 75%;
+    }
+}
