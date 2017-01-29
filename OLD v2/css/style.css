@@ -3,15 +3,26 @@
  * Most of these are inherited from Base, but I want to change a few.
  */
 html {
-    height: 100%;
-    max-width: 100%;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
 body {
-    min-height: 100%;
+/*    min-height: 100%;
     max-width: 100%;
-    color: #526066;
+    color: #526066;*/
+    background-image: url(../images/kitchen-fade.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 h2, h3 {
@@ -57,6 +68,16 @@ p {
 }
 
 /*
+ * -- HEADER STYLES --
+ */
+
+ header {
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
+ }
+
+/*
  * -- BANNER --
  * The top banner with the headings. By using a combination
  * of `display: table;` and `display: table-cell;`, we can
@@ -68,7 +89,6 @@ p {
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
-
     height: 32vh;
     width: 100%;
 /*    margin-bottom: 3em;
@@ -80,9 +100,11 @@ p {
         vertical-align: middle;
 */      margin-bottom: 0;
         font-size: 2em;
-        color: white;
-        font-weight: 500;
-        text-shadow: 0 1px 1px black;
+        color: #A58A74;
+        font-weight: 300;
+/*        text-shadow: 0 1px 1px black;
+*/        background: #E3E3E3;
+
     }
 
 .banner-p {
