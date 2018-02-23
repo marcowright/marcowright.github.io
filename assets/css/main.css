@@ -249,6 +249,9 @@ footer .social {
 .social img {
   width: 2.25rem;
 }
+
+/* MEDIA QUERRIES  */
+
 @media (max-width: 977px) {
   #circle {
     width: 30rem;
@@ -284,6 +287,8 @@ footer .social {
   padding-top: 86px;
   width: 71%;
 }
+
+
 @media (max-width: 570px) {
   header p {
     display: none;
@@ -301,11 +306,12 @@ footer .social {
     justify-content: space-around;
   }
   .body__header--title {
+    padding-top: 24px;
     padding-bottom: 16px;
   }
   .body__header--title h2 {
     text-align: center;
-    font-size: 3.25rem;
+    font-size: 2.25rem;
     position: initial;
     -webkit-text-stroke: 1px;
     transform: initial;
