@@ -342,7 +342,7 @@ h4.work {
   }
   .body__header--title h3 {
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 40px;
@@ -357,6 +357,7 @@ h4.work {
 .body__header--title h3.headline--about {
   font-family: "cresta", sans-serif;
   font-weight: lighter;
+  font-size: 1.2rem;
 }
 
   .title h3 {
@@ -368,7 +369,7 @@ h4.work {
     padding-left: 0;
   }
   section.body__content {
-    padding: 2.5rem 1.5rem;
+    padding: 1.5rem 1.25rem;
     width: 100%;
   }
   .body__content p {
@@ -382,6 +383,11 @@ h4.work {
   footer {
     padding-left: 0;
   }
+
+  .social img {
+    width: 1.5rem;
+}
+
 }
 @media (max-width: 320px) {
   div.container header {
