@@ -8,49 +8,34 @@
     <link rel="stylesheet" type="text/css" href="assets/css/tachyons.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
-
   </head>
 
   <body>
     <div class="container">
       <header class="top flex justify-between items-center pv4">
         <p class="f6-ns">
-          <a href="main.html">Marco Wright</a>
+          <a href="index.html">Marco Wright</a>
         </p>
-        <!-- <a href="#" class="menu-toggle">
-          <img src="assets/icons/menu-icon.svg">
-        </a> -->
         <div class="menu">
           <nav>
-            <a href="main.html" class="selected">Home</a>
-            <a href="about.html">About</a>
-            <a href="work.html">Work</a>
-            <a href="mailto:marco@marcowright.design">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="about.html" class="selected">About</a>
+            <a href="#" class="unselectable" title="I'm working on it. &#x263A;">Work</a>
+            <a href="mailto:marco@marcowright.design" class="contact" title="marcomwright&#64;gmail.com">Contact</a>
           </nav>
         </div>      
       </header>
       <section class="body__header--title">
         <h2 class="f4 f-headline-ns tracked">Marco<br><span>Wright</span></h2>
         <div class="title">
-          <h3 class="f2 f-headline-ns pb5">
-            <div class="title--fadeIn">
-              <span>Web</span>
-
-              <span>Visual</span>
-
-              <span>Digital</span>
-
-              <span>Product</span><br>
-            </div>
-            <span>Designer</span>
-          </h3>
+          <h3 class="f2 f-headline-ns pb5">Passionate &amp; curious with an indomitable spirit.</h3>
         </div>
         <!-- <div class="line"></div> -->
       </section>
-      <section class="body__content flex w-50">
-        <p class="f5 f4-ns">Hello, I'm located in Portland, Oregon and I'm currently looking for the 
-          opportunity to join a team that values design. If you're looking for a visual thinker with a broad
-          skillset, let&apos;s <em><a href="mailto:marco@marcowright.design">talk.</a></em> </p>
+      <section class="body__content about--me flex w-50">
+        <p class="f5 f4-ns">I’m passionate about personal growth and believe in the malleability of intelligence, knowledge, 
+          drive, etc. I’m inspired by travel, architecture, and technology among other things. To put it succinctly, I’m an 
+          explorer at heart. The design and tech space is the domain where I know I can have a positive impact. </p>
       </section>
       <section class="body__img cf">
         <div id="circle"></div>
@@ -65,6 +50,10 @@
         <p>&copy; 2018, Marco Wright.</p>
       </footer>
     </div>
+    <script src="https://unpkg.com/tippy.js/dist/tippy.all.min.js"></script>
+    <script>
+        tippy('.unselectable, .contact')
+      </script>
   </body>
 
 </html>

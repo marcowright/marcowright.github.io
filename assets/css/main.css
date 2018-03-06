@@ -12,7 +12,7 @@ h1, h2, h3, header p {
   font-family: "gastromond", sans-serif;
 }
 p {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 a {
   color: #fff;
@@ -21,7 +21,7 @@ a {
   display: inline-block;
   position: relative;
 }
-.body__header--title h3::before {
+.body__header--title h3.roles::before {
   content: ' ';
   z-index: -1;
   width: 1.25rem;
@@ -38,7 +38,7 @@ a {
 }
 #circle {
   position: absolute;
-  top: calc(100vh - 890px);
+  top: calc(100vh - 51rem);
   left: calc(100vw - 700px);
   width: 46rem;
   height: 46rem;
@@ -52,7 +52,7 @@ a {
 .body__img img {
   position: absolute;
   left: calc(100vw - 800px);
-  top: calc(100vh - 932px);
+  top: calc(100vh - 55rem);
   z-index: 101;
 }
 .container {
@@ -91,10 +91,13 @@ em::before {
   position: absolute;
   background: #a58166;
   width: 100%;
-  height: 47%;
+  height: 40%;
   z-index: -1;
   bottom: 0px;
   transition: 0.2s;
+}
+em:hover::before {
+  height: 80%;
 }
 .body__header--title {
   position: relative;
@@ -250,6 +253,20 @@ footer .social {
   width: 2.25rem;
 }
 
+
+/* WORK */
+
+h4.work {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.unselectable {
+  user-select: none;
+}
+
+
+
 /* MEDIA QUERRIES  */
 
 @media (max-width: 977px) {
@@ -283,9 +300,14 @@ footer .social {
 .body__header--title h3 {
   font-size: 4rem;
 }
-.body__content {
+/* .body__content {
   padding-top: 86px;
-  /* width: 71%; */
+} */
+
+/* ABOUT */
+
+.body__content .about--me {
+  padding-top: 10px;
 }
 
 
@@ -326,7 +348,7 @@ footer .social {
     padding-top: 40px;
     padding-left: 0px;
   }
-  .body__header--title h3::before {
+  .body__header--title h3.roles::before {
     width: 0.75rem;
     top: 0px;
     height: 143px;
@@ -348,7 +370,7 @@ footer .social {
     padding-right: 1.25rem;
   }
   #circle {
-    top: calc(100vh - 87%);
+    top: calc(100vh - 56rem);
     left: calc(100vw - 108%);
   }
   footer {
