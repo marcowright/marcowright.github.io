@@ -342,7 +342,7 @@ h4.work {
   }
   .body__header--title h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.15rem;
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 40px;
@@ -353,6 +353,12 @@ h4.work {
     top: 0px;
     height: 143px;
   }
+
+.body__header--title h3.headline--about {
+  font-family: "cresta", sans-serif;
+  font-weight: lighter;
+}
+
   .title h3 {
     display: block;
   }
@@ -370,8 +376,8 @@ h4.work {
     padding-right: 1.25rem;
   }
   #circle {
-    top: calc(100vh - 56rem);
-    left: calc(100vw - 108%);
+    top: calc(100vh - 37rem);
+    left: calc(100vw - 114%);
   }
   footer {
     padding-left: 0;
