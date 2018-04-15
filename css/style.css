@@ -41,6 +41,7 @@ p {
 a {
   color: #00693D;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 time {
   font-weight: 600;
