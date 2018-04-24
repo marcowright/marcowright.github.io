@@ -134,6 +134,14 @@ main {
   /* Sexy pattern from http://www.heropatterns.com/ */
 }
 
+.img-placeholder {
+  transition: all 0.5s ease;
+}
+
+.img-placeholder:hover {
+  transform: scale(0.8);
+}
+
 .img-placeholder img {
   max-width: 640px;
   box-shadow: 0px 20px 16px -15px rgba(83, 83, 83, 0.76);
