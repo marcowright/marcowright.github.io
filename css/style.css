@@ -12,6 +12,10 @@ body {
   font-size: 1rem;
 }
 
+header {
+  display: none;
+}
+
 ul, ol {
   list-style: none;
 }
@@ -277,6 +281,15 @@ main {
 
   .social a {
     margin-right: 0;
+}
+
+}
+
+/* The responsive bits, called media queries */
+@media screen and (max-width: 400px) {/* Screens 760px or less */
+
+header  {
+  display:block;
 }
 
 }
