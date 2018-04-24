@@ -7,7 +7,7 @@ body {
   color: rgb(31, 31, 31);
   font-size: 100%;
   line-height: 1.375;
-  font-family: "aria-text-g2",sans-serif;
+  font-family: "halyard-text",sans-serif;
   font-size: 1rem;
 }
 
@@ -22,7 +22,7 @@ h1 {
   color: rgb(15, 15, 15);
   margin: 0;
   line-height: 1.2;
-  font-family: "signo",sans-serif;
+  font-family: "halyard-display",sans-serif;
   font-weight: 700;
 }
 h1.light {
@@ -34,6 +34,7 @@ h1.light {
 h2 {
   font-size: 1.2rem;
   margin: 0;
+  font-family: "halyard-micro", sans-serif;
 }
 p {
   font-size: 1.25rem;
