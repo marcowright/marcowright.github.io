@@ -233,6 +233,10 @@ main {
     width: 100%;
   }
 
+  .contact {
+    padding-bottom: 50px;
+  }
+
   .social {
     display: flex;
     justify-content: space-between;
