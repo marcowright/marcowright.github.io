@@ -50,6 +50,20 @@ time {
   font-weight: 600;
 }
 
+/* Pseudo Class */
+
+.link {
+  box-shadow: inset 0 0px 0 #F75431;
+  transition: 0.5s;
+}
+
+.link:hover {
+  box-shadow: inset 0 -40px 0 #F75431;
+  transition: 0.5s;
+  color: #FFFFFF;
+}
+
+
 /* Layout components */
 
 main {
