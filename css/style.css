@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 80px;
   background: #FFFFFF;
   color: rgb(31, 31, 31);
   font-size: 100%;
