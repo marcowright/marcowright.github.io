@@ -231,6 +231,10 @@ main {
      flex-direction: column;
    }
 
+   .navbar {
+     display: none;
+   }
+   
   .navbar a {
      font-size: 1.2rem;
    }
