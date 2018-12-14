@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  display: none;
+  
 }
 
 ul, ol {
@@ -127,7 +127,6 @@ main {
 .navbar {
   position: fixed;
   top: 0;
-  right: 2rem;
   z-index: 100;
 }
 
