@@ -377,7 +377,7 @@ footer {
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   /* main {
@@ -447,10 +447,65 @@ footer {
 }
 
 /* The responsive bits, called media queries */
-@media screen and (max-width: 400px) {/* Screens 760px or less */
+@media screen and (max-width: 414px) {/* Screens 414px or less */
 
-/* header  {
-  display:block;
-} */
+
+div.intro-content_msg {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-content_msg h1 {
+  margin: 0 auto;
+  padding-top: 48px;
+  text-orientation: initial;
+  display: flex;
+}
+
+.intro-content_msg h1 span:nth-child(1), 
+.intro-content_msg h1 span:nth-child(2) {
+  letter-spacing: 0;
+  padding-top: 0;
+}
+
+.intro-content_msg h1 span:nth-child(2) {
+  align-self: center;
+}
+
+.intro-content_msg h1 span:nth-child(1) {
+  /* padding-right: 3.25rem; */
+}
+
+  .intro-content_msg h2,
+  .intro-content_msg p {
+    margin: 0 auto;
+  }
+
+  .intro-content_msg h2 {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .intro-content_msg p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  .intro-content_msg p:nth-of-type(2) {
+    margin-bottom: 0;
+
+  }
+
+  .intro-content_msg ul {
+    padding-left: 0;
+    padding-top: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .intro-content_msg ul li {
+    margin-right: 0.75rem;
+  }
 
 }
