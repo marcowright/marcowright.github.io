@@ -369,81 +369,74 @@ footer {
 
 
 /* The responsive bits, called media queries */
-@media screen and (max-width: 760px) { /* Screens 760px or less */
+@media screen and (max-width: 900px) { /* Screens 900px or less */
 
-  h1 {
-    font-size: 1.75rem;
-    line-height: 1.15;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  /* main {
-     flex-direction: column;
-   } */
-
-   /* .navbar {
-     display: none;
-   } */
-
-   .navbar_menu {
-     padding-left: 0;
-   }
-   
-  .navbar a {
-     font-size: 1.2rem;
-   }
-
-  /* .static-content {
-    width: 100%;
-    position: relative;
-    padding: 12px 40px 12px 16px;
-    height: 10vh;
-    min-height: 100px;
-  } */
-
-  .static-content h1 {
-    font-size: 1.6rem;
-  }
-
-  .post:nth-of-type(1) {
-    padding-top: 0;
-    margin-top: 16px;
-  }
-
-  .main-content-area {
-    width: auto;
-    padding-left: 0;
-    overflow-x: visible;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-top: 0;
-  }
-
-  .main-content-area .img-placeholder {
-    min-height: 0;
-    margin-bottom: 0.2em;
-  }
-
-  .img-placeholder img {
-    width: 100%;
-  }
-
-  .contact {
-    padding-bottom: 2.5em;
-  }
-
-  .social {
+  div.intro-content_msg {
     display: flex;
+    flex-direction: column;
+  }
+  
+  .intro-content_msg h1 {
+    margin: 0 auto;
+    padding-top: 24px;
+    text-orientation: initial;
+    writing-mode: initial;
+    display: flex;
+  }
+  
+  .intro-content_msg h1 span:nth-child(1), 
+  .intro-content_msg h1 span:nth-child(2) {
+    letter-spacing: 0;
+    padding-top: 0;
+  }
+  
+  .intro-content_msg h1 span:nth-child(2) {
+    align-self: center;
+  }
+  
+  .intro-content_msg h1 span:nth-child(1) {
+    padding-right: 1rem;
+    padding-left: 0;
+  }
+  
+  .intro-content_msg h2,
+  .intro-content_msg p {
+    margin: 0 auto;
+  }
+  
+  .intro-content_msg h2 {
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+  
+  .intro-content_msg p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-left: 0;
+  }
+  
+  .intro-content_msg p:nth-of-type(2) {
+    margin-bottom: 32px;
+  
+  }
+  
+  .intro-content_msg ul {
+    padding-left: 0;
+    padding-top: 0;
     justify-content: space-between;
-}
-
-  .social a {
-    margin-right: 0;
-}
-
+    margin: 0 auto;
+  }
+  
+  .intro-content_msg ul li {
+    margin-right: 0.75rem;
+  }
+  
+  .fa-2x {
+    font-size: 1.5em;
+  }
+  
 }
 
 /* The responsive bits, called media queries */
