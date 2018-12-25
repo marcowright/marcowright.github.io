@@ -474,42 +474,42 @@ div.intro-content_msg {
 }
 
 .intro-content_msg h1 span:nth-child(1) {
-  /* padding-right: 3.25rem; */
+  padding-right: 1rem;
   padding-left: 0;
 }
 
-  .intro-content_msg h2,
-  .intro-content_msg p {
-    margin: 0 auto;
-  }
+.intro-content_msg h2,
+.intro-content_msg p {
+  margin: 0 auto;
+}
 
-  .intro-content_msg h2 {
-    padding-top: 0;
-    padding-left: 0;
-    margin-top: 32px;
-    margin-bottom: 16px;
-  }
+.intro-content_msg h2 {
+  padding-top: 0;
+  padding-left: 0;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
 
-  .intro-content_msg p {
-    margin-top: 0;
-    margin-bottom: 16px;
-    padding-left: 0;
-  }
+.intro-content_msg p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 0;
+}
 
-  .intro-content_msg p:nth-of-type(2) {
-    margin-bottom: 32px;
+.intro-content_msg p:nth-of-type(2) {
+  margin-bottom: 32px;
 
-  }
+}
 
-  .intro-content_msg ul {
-    padding-left: 0;
-    padding-top: 0;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
+.intro-content_msg ul {
+  padding-left: 0;
+  padding-top: 0;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 
-  .intro-content_msg ul li {
-    margin-right: 0.75rem;
-  }
+.intro-content_msg ul li {
+  margin-right: 0.75rem;
+}
 
 }
