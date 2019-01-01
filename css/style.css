@@ -7,7 +7,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* padding-bottom: 80px; */
   background: #1d1d1d;
   color:#FFFFFF;
   font-size: 100%;
@@ -133,7 +132,7 @@ main .intro-content_msg {
   background-position: center; */
   position: relative;
   display: flex;
-  /* margin-top: 60px; */
+  padding-top: 60px;
 }
 
 /* .intro-content_msg {
